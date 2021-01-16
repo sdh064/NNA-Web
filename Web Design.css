@@ -1,0 +1,210 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;  
+    padding: 0;
+    margin: 0;
+    background-color: rgb(253, 233, 215);
+
+}
+/* Global */
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.button1{
+    height:38px;
+    background: rgb(238, 69, 7);
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+
+}
+
+.dark{
+    padding:15px;
+    background: rgb(18, 18, 39);
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+/*Header*/
+header{
+    background: rgb(18, 18, 39);
+    color: rgb(255, 255, 255);
+    padding-top: 20px ;
+    margin-bottom: 10px;
+    min-height: 70px;
+    border-bottom: rgb(238, 69, 7)  3px solid ;
+    font-size: 20px;
+}
+header a{
+    text-decoration:none;
+    color: rgb(255, 254, 254);
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+
+header li{  
+    display: inline;
+    padding: 0 20px 0 20px;
+    margin: 0;
+
+}
+
+header #logo{
+    float:left;
+}
+header #logo h1{
+    margin: 0;
+}
+
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+
+header .highlight, header .current a{
+    color: rgb(238, 69, 7);
+    font-weight: bold;
+}
+
+header a:hover{
+    color: grey;
+    font-weight: bold;
+}
+
+
+/* ShowCase*/
+
+#showcase{
+  
+    max-height: 500px;
+    min-width: 400px;
+    background: url('forrest.jpg') no-repeat -200px -500px;
+    text-align: center;
+    
+    
+    
+}
+#showcase h1{
+    color:rgb(18, 18, 39);
+    font-size: 55px;
+   
+    margin-top: 100px;
+    margin-bottom: 40px;
+
+
+}
+#showcase p{
+    color:white;
+    font-size: 15px;
+    
+}
+
+/*Newsletter*/
+
+#Newsletter{
+    padding: 15px;
+    color: white;
+    background: rgb(18, 18, 39);
+}
+
+#Newsletter h1{
+    float: left;
+    margin-top: 15px;
+    font-size: 28px;
+}
+
+#Newsletter form{
+    float: right;
+    margin-top: 20px;
+}
+
+
+#Newsletter input[type="email"]{
+   padding: 4px;
+   height: 25px;
+   width: 250px;
+
+}
+
+/* boxes*/
+
+#boxes{
+    margin-top: 20px;
+
+}
+
+#boxes .box{
+    text-align: center;
+    float: left;
+    width: 30%;
+    padding: 10px;
+
+}
+
+#boxes .box img{
+width:80px;
+height:60px;
+}
+
+/*sidebar*/
+
+aside{
+    float:right;
+    width: 30%;
+    margin-top: 10px;
+}
+
+/*airticle*/
+
+article#main-col{
+    float:left;
+    width: 65%;
+
+}
+
+/*events*/
+
+ul#services li{
+    list-style: none ;
+    padding: 20px;
+    border: grey solid 1px;
+    margin-bottom: 5px;
+    background: lightgray;
+
+    
+}
+aside#bar .quote input{
+    width: 90%;
+    padding: 10px;
+
+}
+
+aside#bar .quote textarea{
+    width: 80%;
+    padding: 10px;
+}
+
+
+
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    color:white;
+    background-color: #e8491d;
+    text-align: center;
+}
